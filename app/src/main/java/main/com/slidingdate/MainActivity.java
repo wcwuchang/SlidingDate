@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity implements SlidingDate.DateC
         mtvSelect=(TextView)findViewById(R.id.tv_select_date);
         mtvWeek=(TextView)findViewById(R.id.tv_week_date);
         slidingDate.setListener(this);
-
         mtvCurrent.setText(slidingDate.getCurrentDate());
     }
 
